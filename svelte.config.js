@@ -9,7 +9,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({ pages: 'docs', assets: 'docs' }),
-		trailingSlash: 'always'
+		trailingSlash: 'always',
+		prerender: { enabled: true, crawl: true, default: true, entries: ['*'], onError: 'continue' }
 	}
 };
 
