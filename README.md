@@ -1,4 +1,4 @@
-<img src="./static/logo.svg/" alt="logo" align="right" width="80"></img>
+<img src="./static/logo.svg/" alt="logo" align="right" width="80" height="100"></img>
 
 # Idillio
 
