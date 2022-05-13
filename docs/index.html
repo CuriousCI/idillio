@@ -2,26 +2,39 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="./logo.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Idillio</title>
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/_app/start-2880ac78.js">
-	<link rel="modulepreload" href="/_app/chunks/index-c3650d4a.js">
-	<link rel="modulepreload" href="/_app/layout.svelte-c5f2029c.js">
-	<link rel="modulepreload" href="/_app/pages/index.svelte-9fd4a0de.js">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-4286bf6a.css">
+	<link rel="modulepreload" href="/_app/start-071de0cc.js">
+	<link rel="modulepreload" href="/_app/chunks/index-55a6c312.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-a17efaea.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-ce5f2fb0.js">
 	</head>
 	<body>
 		<div>
 
 
-<h1>Idillio</h1>
+<h1 class="font-bold text-9xl">Idillio</h1>
+<img src="logo.svg" alt="logo">
 <p>This should be the documentation! Coming soon</p>
+<br>
+
+<form action=""><label for="name">Name
+		*</label>
+
+<input class="border-2 p-1 border-a-red" type="text" name="name" id="" placeholder="Nome tutto maisucolo" pattern="^A.*" title="Deve cominciare con &#39;A&#39;" required value="">
+
+<p class="h-4"><span class="text-a-red">Deve cominciare con &#39;A&#39;</span></p>
+	<br>
+	<input type="submit" value="submit"></form>
 
 
-		<script type="module" data-hydrate="cql2op">
-		import { start } from "/_app/start-2880ac78.js";
+		<script type="module" data-hydrate="10lckto">
+		import { start } from "/_app/start-071de0cc.js";
 		start({
-			target: document.querySelector('[data-hydrate="cql2op"]').parentNode,
+			target: document.querySelector('[data-hydrate="10lckto"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -31,8 +44,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/layout.svelte-c5f2029c.js"),
-						import("/_app/pages/index.svelte-9fd4a0de.js")
+					import("/_app/pages/__layout.svelte-a17efaea.js"),
+						import("/_app/pages/index.svelte-ce5f2fb0.js")
 				],
 				params: {},
 				routeId: ""

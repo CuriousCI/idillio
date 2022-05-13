@@ -3,7 +3,7 @@
 </script>
 
 {#if href}
-	<a {href} class="">
+	<a {href}>
 		<slot name="icon" />
 		<slot />
 	</a>
