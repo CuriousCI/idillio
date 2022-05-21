@@ -6,13 +6,22 @@
 
 <h1 class="font-bold text-9xl">Idillio</h1>
 <img src="logo.svg" alt="logo" />
-<p>This should be the documentation! Coming soon</p>
+<Tooltip text="tooltip" justify={Align.END}>This should be the documentation! Coming soon</Tooltip>
+
 <br />
 
-<!-- <Tooltip text="Bella, come stai?">ciao!</Tooltip> -->
+<Tooltip text="Bella, come stai?">ciao!</Tooltip>
+<br />
+<br />
+<br />
+<Tooltip text="Hi how are you">test</Tooltip>
+<Tooltip text="Hi, how are you!">hey! How are you!!</Tooltip>
+<Tooltip>test</Tooltip>
+<br />
+<br />
 
-<Tooltip text="Form...">
-	<form action="" class="w-min">
+<form>
+	<Tooltip text="Questo è un input" justify={Align.CENTER}>
 		<Input
 			name="name"
 			label="Name"
@@ -24,7 +33,11 @@
 			suggestion="Hi!"
 			required
 		/>
-		<br />
-		<input type="submit" value="submit" />
-	</form>
-</Tooltip>
+	</Tooltip>
+	<br />
+	<input type="submit" value="submit" />
+</form>
+
+<!-- <Tooltip text="Form..." justify={Align.START}>
+	<form>form</form>
+</Tooltip> -->
