@@ -3,14 +3,14 @@
 
 	export let text: string = '',
 		justify: Align = Align.CENTER,
-		align: Align = Align.END;
+		align: Align.START | Align.END = Align.END;
 
 	let hover: boolean = false;
 
 	const justifyToCss = {
-		[Align.START]: 'left-0 ml-1',
+		[Align.START]: 'right-0 mr-1',
 		[Align.CENTER]: 'left-1/2 -translate-x-1/2',
-		[Align.END]: 'right-0 mr-1'
+		[Align.END]: 'left-0 ml-1'
 	};
 
 	const alignToCss = {

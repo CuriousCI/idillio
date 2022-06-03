@@ -38,6 +38,12 @@
 	<input type="submit" value="submit" />
 </form>
 
-<!-- <Tooltip text="Form..." justify={Align.START}>
-	<form>form</form>
-</Tooltip> -->
+<div class="h-screen flex flex-col justify-evenly">
+	<Tooltip text="top center" align={Align.START}>ciao!</Tooltip>
+	<Tooltip text="bottom center" align={Align.END}>ciao!</Tooltip>
+	<Tooltip text="bottom left" justify={Align.START}>ciao!</Tooltip>
+	<Tooltip text="bottom right" justify={Align.END}>ciao!</Tooltip>
+	<Tooltip text="top left" align={Align.START} justify={Align.START}>ciao!</Tooltip>
+	<Tooltip text="top right" align={Align.START} justify={Align.END}>ciao!</Tooltip>
+	<Tooltip text="something test" align={Align.START}>prova123</Tooltip>
+</div>
