@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/idillio/logo.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Idillio</title>
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/idillio/_app/immutable/start-2f69e8af.js">
+	<link rel="modulepreload" href="/idillio/_app/immutable/chunks/index-f2e469db.js">
+	</head>
+	<body>
+		<div>
+		<script type="module" data-sveltekit-hydrate="45h">
+		import { start } from "/idillio/_app/immutable/start-2f69e8af.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+			paths: {"base":"/idillio","assets":"/idillio"},
+			session: {},
+			route: true,
+			spa: true,
+			trailing_slash: "always",
+			hydrate: null
+		});
+	</script></div>
+	</body>
+</html>
