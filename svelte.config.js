@@ -8,7 +8,7 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter({ pages: 'docs', assets: 'docs' }),
+		adapter: adapter({ pages: 'docs', assets: 'docs', fallback: null }),
 		trailingSlash: 'always',
 		prerender: { default: true }
 	}
