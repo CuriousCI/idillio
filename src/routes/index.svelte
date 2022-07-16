@@ -39,6 +39,7 @@
 </form>
 
 <div class="h-screen flex flex-col justify-evenly">
+	<Tooltip text="tip" align={Align.START}>help</Tooltip>
 	<Tooltip text="top center" align={Align.START}>ciao!</Tooltip>
 	<Tooltip text="bottom center" align={Align.END}>ciao!</Tooltip>
 	<Tooltip text="bottom left" justify={Align.START}>ciao!</Tooltip>
