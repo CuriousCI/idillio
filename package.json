@@ -7,12 +7,12 @@
 		"url": "https://curiousci.github.io/idillio/"
 	},
 	"type": "module",
-	"version": "0.0.8",
+	"version": "0.0.10",
 	"main": "src/lib/index.js",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"package": "svelte-kit package",
+		"package": "svlete-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
 		"test": "playwright test",
